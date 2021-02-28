@@ -1,7 +1,18 @@
+# 项目后台（Express + Redis + Mysql）
+
+## 安装
+```
+npm run install
+```
+
+### 开发
+```
+npm run dev
+```
+
+### 生产
+```
+npm run build 
+```
 
 
-    id:loginData[0].id, 
-    username:loginData[0].username,
-    head:loginData[0].head,
-    type:loginData[0].type,
-    classes:loginData[0].classes
