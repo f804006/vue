@@ -1,4 +1,4 @@
-# background-managment
+# 基于vue与nodejs的校园疫情管理系统
 
 ## Project setup
 ```
