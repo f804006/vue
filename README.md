@@ -2,17 +2,17 @@
 
 ## Project setup
 ```
-yarn install
+npm run install OR yarn install
 ```
 
 ### Compiles and hot-reloads for development
 ```
-yarn serve
+npm run dev OR yarn serve
 ```
 
 ### Compiles and minifies for production
 ```
-yarn build
+npm run build OR yarn build
 ```
 
 ### Customize configuration
