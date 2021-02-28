@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .example {
+            width: 100px;
+            height: 100px;
+            background-color: #eee;
+            background: linear-gradient(-45deg,  #482 ,#299);
+
+            /* background: -webkit-linear-gradient(top,#ccc,#000); */
+        }
+
+        body {
+            width: 100vw;
+            height: 90vh;
+            color: #fff;
+            background: linear-gradient(-45deg,#EE7752, #E73C7E, #23A6D5, #23D5AB);
+            background-size: 400% 400%;
+            /* -webkit-animation: Gradient 15s ease infinite; */
+            animation: Gradient 15s ease infinite;
+        }
+
+        @-webkit-keyframes Gradient{
+            0%{
+                background-position: 0% 50%;
+            }
+            50%{
+                background-position: 100% 50%;
+            }
+            100%{
+                background-position: 0% 50%;
+            }
+        }
+
+        @keyframes Gradient{
+            0%{
+                background-position: 0% 50%;
+            }
+            50%{
+                background-position: 100% 50%;
+            }
+            100%{
+                background-position: 0% 50%;
+            }
+        }
+
+
+        h2 {
+            font-weight: 400;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            text-align: center;
+
+        }
+    </style>
+</head>
+<body>
+<!-- <div class="example"></div> -->
+<h2>This is ZC's home page!</h2>
+</body>
+</html>
