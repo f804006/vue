@@ -15,5 +15,24 @@ npm run dev OR yarn serve
 npm run build OR yarn build
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+
+
+###########目录结构描述
+├── Readme.md                   // help
+├── public                      // static resources
+├── src                         
+│   ├── assets                  // static resources
+│   ├── components              // vue组件
+│   ├── router                  // 路由
+│   ├── App.vue
+│   ├── main.js              
+│        
+│   
+├── server                      //后台
+│   ├── bin                     
+│   ├── dao                     // 对数据库操作的文件
+│   ├── model                   // 接口方法
+│   ├── public                  // vue配置
+│   ├── routes                  // 路由
+│   ├── utils                   // 工具包
+
