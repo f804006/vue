@@ -17,24 +17,8 @@ npm run build OR yarn build
 
 
 
-###目录结构描述
-├── Readme.md                   // help
+前端默认端口:80
 
-├── public                      // static resources
+后端默认端口:3000
 
-├── src                         
-│   ├── assets                  // static resources
-│   ├── components              // vue组件
-│   ├── router                  // 路由
-│   ├── App.vue
-│   ├── main.js              
-│        
-│   
-├── server                      //后台
-│   ├── bin                     
-│   ├── dao                     // 对数据库操作的文件
-│   ├── model                   // 接口方法
-│   ├── public                  // vue配置
-│   ├── routes                  // 路由
-│   ├── utils                   // 工具包
 
