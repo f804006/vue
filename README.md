@@ -19,7 +19,9 @@ npm run build OR yarn build
 
 ###目录结构描述
 ├── Readme.md                   // help
+
 ├── public                      // static resources
+
 ├── src                         
 │   ├── assets                  // static resources
 │   ├── components              // vue组件
